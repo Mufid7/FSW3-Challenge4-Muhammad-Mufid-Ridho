@@ -1,0 +1,151 @@
+.header-page{
+    height: auto;
+    font-family: helvetica;
+}
+
+.header-page img{
+    width: 80px;
+}
+
+.header-page{
+    width: 100%;
+    margin: auto;
+    display: block;
+    line-height: normal;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #F1F3FF;
+    border-bottom: #364f6b;
+
+}
+.navbar  h1{
+    font-family: "Agency FB", serif; font-style:italic;
+    margin-right: 10px;
+}
+
+.navbar-nav{
+    background-color: #F1F3FF;
+    font: helvetica;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar-nav a,button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-one{
+    background-color: #F1F3FF;
+}
+
+.body{
+    font-family: helvetica;
+}
+
+@media only screen and (max-width: 576px) {
+
+    body h1 { 
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    body p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 0px;
+    }
+
+    body h2 {
+        margin-right: 0px;
+    }
+
+    body h3 {
+        text-align: center;
+    }
+    body h5 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 0px;
+        text-align: center;
+    }
+    body h7 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+ 
+ }
+
+ @media only screen and (min-width: 577px) {
+
+    body h1{ 
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    body p {
+        font-size: 15px;
+        font-weight: 300;
+        margin-right: 50px;
+    }
+
+    body h2 {
+        margin-right: 50px;
+    }
+
+    body h3 {
+        text-align: center;
+    }
+
+    body h5 {
+        font-size: 15px;
+        font-weight: 300;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    body h7 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+ 
+ }
+
+ @media only screen and (min-width: 992px) {
+
+    body h1{ 
+       font-size: 36px;
+       font-weight: 700;
+       line-height: 50px;    
+    }
+
+    body p {
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 150px;
+    }
+
+    body h2 {
+        margin-right: 150px;        
+    }
+
+    body h3 {
+        text-align: left;
+    }
+
+    body h5 {
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 150px;
+        text-align: left;
+    }
+
+    body h7 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+ 
+ }

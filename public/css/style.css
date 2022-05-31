@@ -1,0 +1,169 @@
+/* offcanvas */
+.offcanvas-body {
+  display: flex;
+  justify-content: end;
+}
+
+/* why us */
+.why {
+  height: 196px;
+  margin: 10px 0px;
+}
+
+p {
+  text-align: justify;
+}
+
+/* style image service */
+.img-services {
+  width: 459px;
+}
+
+.list-services {
+  list-style: none;
+}
+
+.text-services {
+  width: 100%;
+}
+
+/* testimoni */
+.testimoni {
+  background-color: #f1f3ff;
+}
+
+.testimoni_body {
+  display: flex;
+  justify-content: center;
+}
+
+.testimoni_card {
+  height: 270px;
+  width: 70%;
+}
+
+.fa-star {
+  color: #f9cc00;
+}
+
+/* section cta */
+.cta {
+  background-color: #0d28a6;
+  color: white;
+  border-radius: 13px;
+}
+
+.text_cta {
+  width: 50%;
+}
+
+/* margin */
+#our_services,
+#why_us,
+#testimonial,
+#cta,
+#faq {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+/* icon */
+.icon {
+  font-size: 14px;
+  background: #0d28a6;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  width: 32px;
+  text-align: center;
+}
+
+/* link-footer */
+.link-footer {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.link:hover {
+  color: black;
+}
+
+.footer-nav {
+  padding: 0px 5px;
+}
+
+/* responsive =============================================*/
+@media only screen and (max-width: 991px) {
+  .offcanvas-body {
+    display: flex;
+    justify-content: start;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .col-6,
+  .col-3 {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #testimoni_card {
+    display: flex;
+  }
+  .testimoni_card {
+    height: auto;
+  }
+  .d-flex {
+    justify-content: center;
+    margin: 24px 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    padding: 20px 0px;
+  }
+  .col-sm-12 {
+    padding-bottom: 20px;
+  }
+  .text_cta {
+    width: 100%;
+    padding: 0px 30px;
+  }
+  .img-services {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    margin: 0px;
+    padding: 0px 25px;
+  }
+  .col-sm-12 {
+    padding-bottom: 20px;
+  }
+  .footer-nav {
+    padding: 0;
+  }
+  .row-footer {
+    font-size: 14px;
+  }
+  #our_services,
+  #why_us,
+  #testimonial,
+  #cta,
+  #faq {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  .testimonial {
+    font-size: 14px;
+    text-align: left;
+  }
+  .title_why {
+    text-align: center;
+  }
+  .title_faq {
+    text-align: center;
+  }
+}
